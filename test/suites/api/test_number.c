@@ -11,7 +11,7 @@
 static void run_tests()
 {
     json_t *integer, *real;
-    int i;
+    json_int_t i;
     double d;
 
     integer = json_integer(5);
